@@ -50,7 +50,7 @@ body{
 .btn{
     font-weight: 800;
     font-size: large;
-    padding: 1.5rem;
+    padding: 1rem;
     border: 0;
     border-radius: 30px;
     background-color: var(--light-grey);
