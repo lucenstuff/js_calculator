@@ -11,6 +11,12 @@ button.forEach(button => {
             return;
         }
 
+        
+        if (display.textContent="Infinity"){
+            display.textContent = "Error!"
+        }
+
+
         if (button.id === "del") {
             if (display.textContent.length === 1 || display.textContent === "Error!") {
                 display.textContent = "0";
