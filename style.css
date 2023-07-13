@@ -47,6 +47,32 @@ body{
     text-align: right;
 }
 
+.display-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: var(--creamywhite);
+    padding: 1.5rem;
+    text-align: right;
+  }
+  
+  .display-content {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--black);
+    font-weight: 800;
+    font-size: large;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .display.small {
+    font-size: medium;
+  }
+
 .btn{
     font-weight: 800;
     font-size: large;
