@@ -12,7 +12,7 @@ button.forEach(button => {
         }
 
         
-        if (display.textContent="Infinity"){
+        if (display.textContent==="Infinity" || display.textContent==="-Infinity"  ){
             display.textContent = "Error!"
         }
 
